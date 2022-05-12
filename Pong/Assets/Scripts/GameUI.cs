@@ -57,7 +57,7 @@ public class GameUI : MonoBehaviour
         switch (GameManager.instance.playMode)
         {
             case GameManager.PlayMode.PlayerVsPlayer:
-                playModeButtonText.text = "2 Players";
+                playModeButtonText.text = "Player vs Player";
                 break;
 
             case GameManager.PlayMode.PlayerVsAi:
